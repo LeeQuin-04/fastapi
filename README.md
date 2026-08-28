@@ -25,5 +25,5 @@ Swagger UI: http://127.0.0.1:8000/docs
 	DELETE /todos/{todo_id}
 
 ## Chay script test voi curl
-+x curl.sh
+chmod +x curl.sh
 ./curl.sh
