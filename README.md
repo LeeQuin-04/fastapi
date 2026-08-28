@@ -23,13 +23,14 @@ Swagger UI: http://127.0.0.1:8000/docs
 	GET /todos/{todo_id} -> Lay thong tin chi tiet cua Todos co id la todo_id
 	PUT /todos/{todo_id} -> Cp nhat Todos co id la todo_id
 	DELETE /todos/{todo_id} -> Xoa Todos co id la todo_id
-
 ## Chay script test voi curl trong Ter thu hai
+
 chmod +x curl.sh
 ./curl.sh
+```
 
 ## Log tra ve minh hoa luong goi API
-
+```bash
 1. Kiem tra Health
 {"status":"Song rat khoe"}
 
